@@ -6,7 +6,7 @@ sm_alpha = "abcdefghijk"
 lg_alpha = "ABCDEFGHIJK"
 
 all = symbols+numbers+sm_alpha+lg_alpha
-length =18
+length =16
 
 password = "".join(random.sample(all,length))
-print(password)
+print('password is: '+password)
